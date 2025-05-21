@@ -75,158 +75,58 @@ def get_tickets_for_role(role_name):
     }
     return ticket_mapping.get(role_name, 0)
 
-def load_eligible_members(members_file, roles_file, role_tickets_file):
-    """載入有資格參加抽獎的會員及其應得的籤數"""
+def load_processed_data(data_file):
+    """從處理後的JSON檔案載入抽獎資料"""
     try:
-        # 載入會員資料
-        with open(members_file, 'r', encoding='utf-8') as f:
-            eligible_members = json.load(f)
+        with open(data_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-        # 載入角色對應資料
-        with open(roles_file, 'r', encoding='utf-8') as f:
-            roles_data = json.load(f)
+        if not isinstance(data, dict) or "members" not in data:
+            print(f"錯誤：資料檔案格式不正確，應包含 'members' 欄位")
+            return [], set()
 
-        # 載入角色對應籤數
-        with open(role_tickets_file, 'r', encoding='utf-8') as f:
-            role_tickets = json.load(f)
+        # 獲取會員列表
+        members = data.get("members", [])
 
-        # 檢查原始會員資料中的重複ID
-        member_ids = [member["id"] for member in eligible_members]
-        duplicate_ids = set([id for id in member_ids if member_ids.count(id) > 1])
-
-        if duplicate_ids:
-            print(f"警告：在會員資料中發現 {len(duplicate_ids)} 個重複的ID:")
-            for dup_id in duplicate_ids:
-                duplicates = [member for member in eligible_members if member["id"] == dup_id]
-                usernames = [member.get("username", "未知") for member in duplicates]
-                print(f"  - ID: {dup_id}, 重複用戶名: {', '.join(usernames)}")
-
-        # 建立會員ID對應字典 (使用最後一次出現的會員資料)
-        members_dict = {member["id"]: member for member in eligible_members}
-
-        print(f"從 {members_file} 載入了 {len(members_dict)} 名有資格的會員 (去除重複後)")
-
-        # 處理guild成員角色和籤數
+        # 建立加權名單
         weighted_participants = []
-        processed_members = set()  # 用於追蹤已處理的會員
+        true_duplicates = set()
 
-        # 從guild_members中獲取角色資訊
-        guild_members = roles_data.get("members", [])
+        # 處理每個會員
+        for member in members:
+            user_id = member.get("id", "")
+            tickets = member.get("tickets", 0)
+            is_duplicate = member.get("is_duplicate", False)
 
-        print(f"從 {roles_file} 載入了 {len(guild_members)} 名會員的角色資訊")
+            if is_duplicate and user_id:
+                true_duplicates.add(user_id)
 
-        # 檢查roles資料中的重複ID
-        guild_member_ids = []
-        for guild_member in guild_members:
-            user_data = guild_member.get("member", {}).get("user", {})
-            if "id" in user_data:
-                guild_member_ids.append(user_data["id"])
+            # 跳過沒有籤數的會員
+            if tickets <= 0:
+                continue
 
-        role_duplicate_ids = set([id for id in guild_member_ids if guild_member_ids.count(id) > 1])
+            # 取得會員顯示名稱
+            display_name = member.get("display_name", "") or member.get("global_name", "") or member.get("username", "")
 
-        if role_duplicate_ids:
-            print(f"警告：在角色資料中發現 {len(role_duplicate_ids)} 個重複的ID:")
-            for dup_id in role_duplicate_ids:
-                count = guild_member_ids.count(dup_id)
-                print(f"  - ID: {dup_id} 出現 {count} 次")
+            # 添加會員到加權抽獎列表
+            for _ in range(tickets):
+                weighted_participants.append((display_name, member))
 
-        # 儲存真正的重複ID (兩個來源資料中都出現的重複)
-        true_duplicates = duplicate_ids.union(role_duplicate_ids)
-
-        for guild_member in guild_members:
-            member_data = guild_member.get("member", {})
-            user_data = member_data.get("user", {})
-            user_id = user_data.get("id")
-
-            # 檢查此會員是否有資格參加抽獎
-            if user_id in members_dict:
-                processed_members.add(user_id)
-
-                # 獲取此會員的角色列表
-                roles = member_data.get("roles", [])
-
-                # 計算此會員應得的籤數
-                max_tickets = 0
-                member_roles = []
-                max_role = None
-
-                for role_id in roles:
-                    if role_id in role_tickets:
-                        role_name = role_tickets[role_id]
-                        tickets = get_tickets_for_role(role_name)
-                        member_roles.append(f"{role_name} ({tickets})")
-
-                        # 保存籤數最高的角色
-                        if tickets > max_tickets:
-                            max_tickets = tickets
-                            max_role = role_name
-
-                # 如果沒有任何籤數，不給任何籤
-                if max_tickets == 0:
-                    continue  # 跳過這個會員，不加入抽獎列表
-
-                # 取得會員顯示名稱
-                global_name = user_data.get("global_name")
-                username = user_data.get("username")
-                display_name = global_name if global_name else username
-
-                # 創建會員資訊字典
-                member_info = {
-                    "id": user_id,
-                    "username": username,
-                    "global_name": global_name,
-                    "display_name": display_name,
-                    "tickets": max_tickets,
-                    "roles": member_roles,
-                    "max_role": max_role,
-                    "is_duplicate": user_id in true_duplicates  # 標記真正的重複ID
-                }
-
-                # 添加會員到加權抽獎列表
-                for _ in range(max_tickets):
-                    weighted_participants.append((display_name, member_info))
-
-        # 檢查是否有符合資格但未處理的會員
-        missing_members = set(members_dict.keys()) - processed_members
-        if missing_members:
-            print(f"警告：有 {len(missing_members)} 名符合資格的會員未在角色資料中找到")
-
-            # 處理這些會員，給予最小的籤數
-            for member_id in missing_members:
-                member = members_dict[member_id]
-
-                # 取得會員顯示名稱
-                global_name = member.get("global_name")
-                username = member.get("username")
-                display_name = global_name if global_name else username
-
-                # 創建會員資訊字典
-                member_info = {
-                    "id": member_id,
-                    "username": username,
-                    "global_name": global_name,
-                    "display_name": display_name,
-                    "tickets": 0,  # 這些會員沒有籤數
-                    "roles": ["無特殊角色"],
-                    "max_role": "無特殊角色",
-                    "is_duplicate": member_id in true_duplicates  # 標記真正的重複ID
-                }
-
-                # 不添加到加權抽獎列表，因為沒有籤數
+        print(f"從 {data_file} 載入了 {len(weighted_participants)} 張籤，共 {data.get('eligible_members', 0)} 名符合資格的會員")
 
         return weighted_participants, true_duplicates
 
-    except FileNotFoundError as e:
-        print(f"錯誤：找不到檔案 - {str(e)}")
+    except FileNotFoundError:
+        print(f"錯誤：找不到檔案 '{data_file}'")
         return [], set()
-    except json.JSONDecodeError as e:
-        print(f"錯誤：JSON格式不正確 - {str(e)}")
+    except json.JSONDecodeError:
+        print(f"錯誤：檔案 '{data_file}' 不是有效的JSON格式")
         return [], set()
     except Exception as e:
         print(f"錯誤：{str(e)}")
         return [], set()
 
-def verify_fairness(weighted_participants, simulations=100000):
+def verify_fairness(weighted_participants, simulations=10000):
     """驗證抽獎機率的公平性
 
     通過大量模擬抽獎來檢查每個會員被抽中的機率是否符合其籤數比例
@@ -336,23 +236,12 @@ def verify_fairness(weighted_participants, simulations=100000):
 def main():
     try:
         # 檔案路徑設定
-        # members_file = input("請輸入有資格參加抽獎的會員JSON檔案路徑 (預設為 member.json): ")
-        # if not members_file:
-        #     members_file = "member.json"
-        members_file = "raffle_member.json"
+        processed_data_file = input("請輸入處理後的抽獎資料JSON檔案路徑 (預設為 lottery_data.json): ")
+        if not processed_data_file:
+            processed_data_file = "lottery_data.json"
 
-        # roles_file = input("請輸入會員角色JSON檔案路徑 (預設為 roles.json): ")
-        # if not roles_file:
-        #     roles_file = "roles.json"
-        roles_file = "member_role.json"
-
-        # role_tickets_file = input("請輸入角色籤數對應JSON檔案路徑 (預設為 role_tickets.json): ")
-        # if not role_tickets_file:
-        #     role_tickets_file = "role_tickets.json"
-        role_tickets_file = "role.json"
-
-        # 載入參與者名單並計算籤數，同時獲取真正的重複ID
-        weighted_participants, true_duplicates = load_eligible_members(members_file, roles_file, role_tickets_file)
+        # 載入處理後的資料
+        weighted_participants, true_duplicates = load_processed_data(processed_data_file)
 
         if not weighted_participants:
             print("錯誤：沒有找到符合條件的參與者或檔案讀取錯誤！")
