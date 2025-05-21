@@ -4,13 +4,51 @@ import os
 import sys
 import json
 import csv
+import hashlib
+import uuid
+import secrets
+import datetime
 
 def clear_screen():
     """清除螢幕"""
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def animate_drawing(participants, duration=3):
+def enhance_randomness():
+    """增強隨機性，使用多種方法初始化隨機數生成器"""
+    # 方法1: 使用系統熵源初始化
+    # 這使用操作系統提供的加密強隨機數生成器
+    random_seed = secrets.randbits(256)
+
+    # 方法2: 混合時間因素
+    # 添加當前時間的微秒部分增加不可預測性
+    current_time = datetime.datetime.now()
+    time_seed = int(current_time.timestamp() * 1000000)
+
+    # 方法3: 添加唯一標識符
+    # 使用UUID增加熵源
+    uuid_seed = int(uuid.uuid4().hex, 16) % (2**32)
+
+    # 方法4: 哈希混合以上因素
+    # 使用SHA-256哈希以上所有種子值，進一步增加熵
+    combined_seed = f"{random_seed}-{time_seed}-{uuid_seed}-{os.getpid()}"
+    hash_seed = int(hashlib.sha256(combined_seed.encode()).hexdigest(), 16) % (2**32)
+
+    # 設置 random 模組的種子
+    random.seed(hash_seed)
+
+    # 顯示增強隨機性的信息
+    print("隨機系統已增強：使用加密級隨機源 + 時間因素 + UUID + 進程ID 的混合哈希種子")
+
+    return hash_seed
+
+def animate_drawing(participants, duration=3, enhanced_random=True):
     """動畫效果的抽獎"""
+    # 如果啟用增強隨機性，先洗牌參與者列表
+    if enhanced_random:
+        # 使用多次洗牌進一步提高隨機性
+        for _ in range(7):  # 洗牌7次
+            random.shuffle(participants)
+
     # 設定動畫速度
     speed = 0.1
     end_time = time.time() + duration
@@ -22,7 +60,13 @@ def animate_drawing(participants, duration=3):
     while time.time() < end_time:
         clear_screen()
         # 從加權列表中選擇
-        current_selection = random.choice(participants)
+        if enhanced_random:
+            # 使用密碼學安全的隨機選擇
+            random_index = secrets.randbelow(len(participants))
+            current_selection = participants[random_index]
+        else:
+            current_selection = random.choice(participants)
+
         if isinstance(current_selection, tuple):
             display_name = current_selection[0]  # 顯示名稱
         else:
@@ -40,7 +84,13 @@ def animate_drawing(participants, duration=3):
 
     # 最終結果
     clear_screen()
-    winner = random.choice(participants)
+    if enhanced_random:
+        # 使用密碼學安全的隨機選擇
+        random_index = secrets.randbelow(len(participants))
+        winner = participants[random_index]
+    else:
+        winner = random.choice(participants)
+
     if isinstance(winner, tuple):
         display_winner = winner[0]  # 顯示名稱
         winner_info = winner[1]     # 其他資訊
@@ -58,22 +108,6 @@ def animate_drawing(participants, duration=3):
     print("=" * 50)
 
     return winner
-
-def get_tickets_for_role(role_name):
-    """根據角色名稱獲取對應的籤數"""
-    ticket_mapping = {
-        "呢喃貓": 1,
-        "雙貓流": 2,
-        "三隻小貓": 3,
-        "四貓打麻將": 4,
-        "五貓戰隊": 5,
-        "六親不認貓": 6,
-        "七貓亂彈琴": 7,
-        "八貓大逃殺": 8,
-        "九mint怪貓": 9,
-        "十二金貓": 12
-    }
-    return ticket_mapping.get(role_name, 0)
 
 def load_processed_data(data_file):
     """從處理後的JSON檔案載入抽獎資料"""
@@ -135,6 +169,9 @@ def verify_fairness(weighted_participants, simulations=10000):
         print("沒有參與者，無法驗證公平性")
         return
 
+    # 初始化隨機性
+    enhance_randomness()
+
     # 獲取唯一會員和他們的籤數
     members = {}
     for name, info in weighted_participants:
@@ -149,9 +186,11 @@ def verify_fairness(weighted_participants, simulations=10000):
     # 計算總籤數
     total_tickets = len(weighted_participants)
 
-    # 模擬多次抽獎
+    # 模擬多次抽獎，使用增強的隨機性
     for _ in range(simulations):
-        winner = random.choice(weighted_participants)
+        # 使用密碼學安全的隨機選擇
+        random_index = secrets.randbelow(len(weighted_participants))
+        winner = weighted_participants[random_index]
         winner_id = winner[1]["id"]
         members[winner_id]["wins"] += 1
 
@@ -235,6 +274,9 @@ def verify_fairness(weighted_participants, simulations=10000):
 
 def main():
     try:
+        # 初始化增強隨機性
+        random_seed = enhance_randomness()
+
         # 檔案路徑設定
         processed_data_file = input("請輸入處理後的抽獎資料JSON檔案路徑 (預設為 lottery_data.json): ")
         if not processed_data_file:
@@ -246,6 +288,18 @@ def main():
         if not weighted_participants:
             print("錯誤：沒有找到符合條件的參與者或檔案讀取錯誤！")
             return
+
+        # 使用增強的洗牌方法進一步提高隨機性
+        print("正在進行高強度隨機洗牌...")
+        # 多次洗牌以增強隨機性
+        for i in range(10):
+            # 每次使用不同的種子洗牌
+            shuffle_seed = random_seed + i + int(time.time() * 1000) % 10000
+            random.seed(shuffle_seed)
+            random.shuffle(weighted_participants)
+            time.sleep(0.01)  # 短暫延遲確保時間因素變化
+
+        print(f"完成隨機洗牌，參與抽獎的籤數總共有 {len(weighted_participants)} 張")
 
         # 顯示參與者名單及其籤數
         clear_screen()
@@ -341,7 +395,7 @@ def main():
         # 驗證抽獎公平性
         choice = input("\n是否要進行抽獎公平性驗證？(y/n): ")
         if choice.lower() == 'y':
-            simulations = 100000
+            simulations = 1000000
             try:
                 sim_input = input(f"請輸入模擬次數 (預設為 {simulations}): ")
                 if sim_input.strip():
@@ -353,8 +407,31 @@ def main():
 
         input("\n按下 Enter 開始抽獎...")
 
+        # 詢問用戶是否要使用增強隨機性
+        use_enhanced_random = True
+        # choice = input("是否要使用加密級隨機性進行抽獎？(y/n，預設y): ")
+        # if choice.lower() == 'n':
+        #     use_enhanced_random = False
+        #     print("使用標準隨機性進行抽獎")
+        # else:
+        #     print("使用加密級隨機性進行抽獎，提高不可預測性")
+        print("使用加密級隨機性進行抽獎，提高不可預測性")
+
+        # 詢問抽獎動畫持續時間
+        duration = 3
+        try:
+            duration_input = input(f"請輸入抽獎動畫持續時間 (預設為 {duration} 秒): ")
+            if duration_input.strip():
+                duration = float(duration_input)
+                if duration < 1:
+                    duration = 1
+                elif duration > 10:
+                    duration = 10
+        except ValueError:
+            print(f"輸入無效，使用預設時間 {duration} 秒")
+
         # 執行抽獎動畫
-        winner = animate_drawing(weighted_participants)
+        winner = animate_drawing(weighted_participants, duration, use_enhanced_random)
 
         # 顯示勝利者詳細資訊
         if isinstance(winner, tuple):
