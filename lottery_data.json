@@ -1,0 +1,3061 @@
+{
+  "total_members": 245,
+  "eligible_members": 243,
+  "total_tickets": 363,
+  "members": [
+    {
+      "id": "926164307987812372",
+      "username": "allthatis",
+      "global_name": "All That Is",
+      "display_name": "All That Is",
+      "tickets": 12,
+      "max_role": "十二金貓",
+      "roles": [
+        "六親不認貓 (6)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)",
+        "四貓打麻將 (4)",
+        "九mint怪貓 (9)",
+        "三隻小貓 (3)",
+        "十二金貓 (12)",
+        "七貓亂彈琴 (7)",
+        "八貓大逃殺 (8)",
+        "五貓戰隊 (5)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "389421639764541440",
+      "username": "hyacinthqq",
+      "global_name": "hyacinthQQ",
+      "display_name": "hyacinthQQ",
+      "tickets": 5,
+      "max_role": "五貓戰隊",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "五貓戰隊 (5)",
+        "呢喃貓 (1)",
+        "四貓打麻將 (4)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "906964181859844128",
+      "username": "kavalan57.8",
+      "global_name": "戴夫",
+      "display_name": "戴夫",
+      "tickets": 4,
+      "max_role": "四貓打麻將",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)",
+        "四貓打麻將 (4)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "930905714258489435",
+      "username": "_0xeden",
+      "global_name": "_0xEden",
+      "display_name": "_0xEden",
+      "tickets": 4,
+      "max_role": "四貓打麻將",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)",
+        "四貓打麻將 (4)",
+        "三隻小貓 (3)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "949354172904521769",
+      "username": "jimmyhuii",
+      "global_name": "吉米流",
+      "display_name": "吉米流",
+      "tickets": 4,
+      "max_role": "四貓打麻將",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)",
+        "四貓打麻將 (4)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "160049224677982208",
+      "username": ".hsin",
+      "global_name": "Hsin",
+      "display_name": "Hsin",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "271626256431185920",
+      "username": "hyc.tw",
+      "global_name": "hyc",
+      "display_name": "hyc",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "404639177397764096",
+      "username": "coffeetsai",
+      "global_name": "coffeeTsai",
+      "display_name": "coffeeTsai",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "456397841422614540",
+      "username": "crypto.wen",
+      "global_name": "wen",
+      "display_name": "wen",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "475641797456953346",
+      "username": "ipo_ipo",
+      "global_name": "一波",
+      "display_name": "一波",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "509225317202657291",
+      "username": "play3601",
+      "global_name": "凱哥",
+      "display_name": "凱哥",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "532633781006368789",
+      "username": "0xdff",
+      "global_name": "0xDFF",
+      "display_name": "0xDFF",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "553292553840099349",
+      "username": "nw.b",
+      "global_name": "NwB",
+      "display_name": "NwB",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "579954684345843712",
+      "username": "aidenyu",
+      "global_name": "Aiden Yu",
+      "display_name": "Aiden Yu",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "624970641556111360",
+      "username": "jeffrey200140",
+      "global_name": "花生冰淇淋｜WTC🐯",
+      "display_name": "花生冰淇淋｜WTC🐯",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "697834681839779910",
+      "username": "yaer0889",
+      "global_name": "yaer",
+      "display_name": "yaer",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "702529154901344370",
+      "username": "silverwolf9665",
+      "global_name": "銀狼",
+      "display_name": "銀狼",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "725117035033395261",
+      "username": "jenmy",
+      "global_name": "mj",
+      "display_name": "mj",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "759757488962011136",
+      "username": "terry747",
+      "global_name": "避難Crypto獅子丸",
+      "display_name": "避難Crypto獅子丸",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "762495659281481798",
+      "username": "cookieseven",
+      "global_name": "CookieSeven",
+      "display_name": "CookieSeven",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "813293019062206505",
+      "username": "luke_ht",
+      "global_name": "Luke.ht",
+      "display_name": "Luke.ht",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "821671518957600779",
+      "username": "shermanchang",
+      "global_name": "SC",
+      "display_name": "SC",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "852440428515164163",
+      "username": "reitschule",
+      "global_name": "reitschule",
+      "display_name": "reitschule",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "853252393051619358",
+      "username": "andy781209",
+      "global_name": "嗜血狼魂",
+      "display_name": "嗜血狼魂",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "856139679261523978",
+      "username": ".rason",
+      "global_name": "Rason",
+      "display_name": "Rason",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "860384225031225344",
+      "username": "huadon",
+      "global_name": "花東原始人",
+      "display_name": "花東原始人",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "862712903353630751",
+      "username": ".ptzu",
+      "global_name": "ptzu",
+      "display_name": "ptzu",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "892428043363172384",
+      "username": "cck055",
+      "global_name": "CCK055",
+      "display_name": "CCK055",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "893528318157152318",
+      "username": "weiweitata",
+      "global_name": "weiweitata",
+      "display_name": "weiweitata",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "893657716990566441",
+      "username": "0xlonnie",
+      "global_name": "Lonnie",
+      "display_name": "Lonnie",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "896046085414473728",
+      "username": "alvin_lu",
+      "global_name": "Alvin | 地方賢達 |",
+      "display_name": "Alvin | 地方賢達 |",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "898842734037704765",
+      "username": "pighead621",
+      "global_name": "來玩我的鳥鳥",
+      "display_name": "來玩我的鳥鳥",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "905601654454382672",
+      "username": "peterpan_1998",
+      "global_name": "PeterPan｜🐈Murmurcats",
+      "display_name": "PeterPan｜🐈Murmurcats",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "910586510024265748",
+      "username": "asakye",
+      "global_name": "Hank/Asakye",
+      "display_name": "Hank/Asakye",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "912284977872375859",
+      "username": "ccpun531",
+      "global_name": "彭小龜 Mark",
+      "display_name": "彭小龜 Mark",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "919125186920472596",
+      "username": "wjtyl",
+      "global_name": "WJT｜DJZ",
+      "display_name": "WJT｜DJZ",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "923381339741368391",
+      "username": "robbie0921",
+      "global_name": "robbie0921",
+      "display_name": "robbie0921",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "923572723609923664",
+      "username": "jameslee1444",
+      "global_name": "JamesLee",
+      "display_name": "JamesLee",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "925326098127024158",
+      "username": "little_lighty",
+      "global_name": "AC(-1,-1)",
+      "display_name": "AC(-1,-1)",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "936093996407726121",
+      "username": "weihan_1985",
+      "global_name": "Weihan",
+      "display_name": "Weihan",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "944399946189266986",
+      "username": "honda8999",
+      "global_name": "Honda",
+      "display_name": "Honda",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "950555842413994024",
+      "username": "ccc0356",
+      "global_name": "CCC",
+      "display_name": "CCC",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "953910833908428860",
+      "username": "ernestopronius",
+      "global_name": "ernestopronius",
+      "display_name": "ernestopronius",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "961587604518740008",
+      "username": "vic81413",
+      "global_name": "Vic",
+      "display_name": "Vic",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "963738170804023346",
+      "username": "bearale",
+      "global_name": null,
+      "display_name": "bearale",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1213803419354140762",
+      "username": "buco1826",
+      "global_name": "Buco",
+      "display_name": "Buco",
+      "tickets": 3,
+      "max_role": "三隻小貓",
+      "roles": [
+        "三隻小貓 (3)",
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "371298637789265920",
+      "username": "ivansus0907",
+      "global_name": "奶茶",
+      "display_name": "奶茶",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "546312347199733760",
+      "username": ".0xandy",
+      "global_name": "0xAndy",
+      "display_name": "0xAndy",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "585480115492749333",
+      "username": "sjlin",
+      "global_name": "SJLin",
+      "display_name": "SJLin",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "612462529138130992",
+      "username": "rrr1234",
+      "global_name": "RRR1234",
+      "display_name": "RRR1234",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "762728932709498910",
+      "username": "e.so0309",
+      "global_name": "E.SO🦁",
+      "display_name": "E.SO🦁",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "764086580390002708",
+      "username": ".blackroger",
+      "global_name": "blackroger",
+      "display_name": "blackroger",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "809737411516563466",
+      "username": "starleoda",
+      "global_name": "starleoda",
+      "display_name": "starleoda",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "849681274850639924",
+      "username": "joycewuji",
+      "global_name": "Joyce五吉",
+      "display_name": "Joyce五吉",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "865073601806991410",
+      "username": "cryptowilson_yt",
+      "global_name": "CryptoWilson｜WTC🐯（台灣幣圈第一深情）",
+      "display_name": "CryptoWilson｜WTC🐯（台灣幣圈第一深情）",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "871959465983877200",
+      "username": "kenc305",
+      "global_name": "KenC",
+      "display_name": "KenC",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "898064561805070396",
+      "username": "arlenchang",
+      "global_name": "ArlenChang  | FOMO Dog 180",
+      "display_name": "ArlenChang  | FOMO Dog 180",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "901968244255121468",
+      "username": "wei.0212",
+      "global_name": "Wei0212",
+      "display_name": "Wei0212",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "903906132492443648",
+      "username": "jess5348",
+      "global_name": "Je",
+      "display_name": "Je",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "912265017083179009",
+      "username": "arthur.tw",
+      "global_name": null,
+      "display_name": "arthur.tw",
+      "tickets": 2,
+      "max_role": "雙貓流",
+      "roles": [
+        "雙貓流 (2)",
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "91027405178687488",
+      "username": "ponchimeow",
+      "global_name": "碰器",
+      "display_name": "碰器",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "110982091436457984",
+      "username": "gd888",
+      "global_name": "CHT",
+      "display_name": "CHT",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "156621991699415041",
+      "username": "doo2q",
+      "global_name": "D²| FusionX Finance",
+      "display_name": "D²| FusionX Finance",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "239653251979542529",
+      "username": "stanley0418",
+      "global_name": "stanley0418",
+      "display_name": "stanley0418",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "240802512498720769",
+      "username": "kkky_kkky",
+      "global_name": "KKKY",
+      "display_name": "KKKY",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "253908426772447232",
+      "username": "chester0416",
+      "global_name": "Chester｜Bitcoiner Founder",
+      "display_name": "Chester｜Bitcoiner Founder",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "266737401316114432",
+      "username": "sky5995",
+      "global_name": "藍懶",
+      "display_name": "藍懶",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "271648752199008256",
+      "username": "ggininder0511",
+      "global_name": "GGininder",
+      "display_name": "GGininder",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "277042826636820480",
+      "username": "arensusu",
+      "global_name": "ArenSusu",
+      "display_name": "ArenSusu",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "293657637872992256",
+      "username": "honest_eagle_27404",
+      "global_name": "ctwang",
+      "display_name": "ctwang",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "301693492906688513",
+      "username": "haohaoxiao",
+      "global_name": "豪豪笑",
+      "display_name": "豪豪笑",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "334640237114556418",
+      "username": "chen6326",
+      "global_name": "CHEN",
+      "display_name": "CHEN",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "357475045439963136",
+      "username": "jie9416",
+      "global_name": "Haru🔆",
+      "display_name": "Haru🔆",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "374878559870648320",
+      "username": "henrisontao",
+      "global_name": "Henrison",
+      "display_name": "Henrison",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "393784863314149376",
+      "username": "taotieh.eth",
+      "global_name": "TaoTieh",
+      "display_name": "TaoTieh",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "401328248815878145",
+      "username": "allenloo",
+      "global_name": "Allen",
+      "display_name": "Allen",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "410834287944794122",
+      "username": "kenw911",
+      "global_name": null,
+      "display_name": "kenw911",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "415907152503242752",
+      "username": "guavaxy",
+      "global_name": "芭樂乾乾",
+      "display_name": "芭樂乾乾",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "435435997568696342",
+      "username": "30435",
+      "global_name": "30435",
+      "display_name": "30435",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "449252058961281035",
+      "username": "laicc",
+      "global_name": "laicc",
+      "display_name": "laicc",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "454592885686534157",
+      "username": "crazychick9527",
+      "global_name": "Crazychick",
+      "display_name": "Crazychick",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "459221904579100672",
+      "username": "yo9112",
+      "global_name": "歐狼",
+      "display_name": "歐狼",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "462994049972961280",
+      "username": "joe_zator",
+      "global_name": "Joe",
+      "display_name": "Joe",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "468277944155111425",
+      "username": "alanj5194",
+      "global_name": "AlanJ",
+      "display_name": "AlanJ",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "473527751123664907",
+      "username": "handsomeiu08181994",
+      "global_name": null,
+      "display_name": "handsomeiu08181994",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "480741772507480073",
+      "username": "xiao_lin.",
+      "global_name": "小林",
+      "display_name": "小林",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "487945709656473610",
+      "username": "h.sun",
+      "global_name": "HS",
+      "display_name": "HS",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "488924189831593994",
+      "username": "biiimo_xy",
+      "global_name": "BiiimoXY",
+      "display_name": "BiiimoXY",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "493461848763531277",
+      "username": "weiiwill",
+      "global_name": "weiiwill",
+      "display_name": "weiiwill",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "501766074027606017",
+      "username": "shawnkao",
+      "global_name": "Shawn KAO",
+      "display_name": "Shawn KAO",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "510295802678345739",
+      "username": "35p2018",
+      "global_name": "35P",
+      "display_name": "35P",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "516955266835808256",
+      "username": "fffang.eth",
+      "global_name": "FFFang",
+      "display_name": "FFFang",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "517208046175256576",
+      "username": "pumpkin2181",
+      "global_name": "pumpkin",
+      "display_name": "pumpkin",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "520196572110127104",
+      "username": "demon_cat_0306",
+      "global_name": "Eunha",
+      "display_name": "Eunha",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "524229975751000104",
+      "username": "twaxuan",
+      "global_name": "Randy",
+      "display_name": "Randy",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "534962904680628227",
+      "username": "chenkuanting",
+      "global_name": "Professor",
+      "display_name": "Professor",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "536159480409358336",
+      "username": "murmurcatsw",
+      "global_name": "Murmurcats | 韭菜W",
+      "display_name": "Murmurcats | 韭菜W",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "537271193032589312",
+      "username": "newnew5473",
+      "global_name": "newnew",
+      "display_name": "newnew",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "542623683307634700",
+      "username": "hedging_util",
+      "global_name": "避難器具",
+      "display_name": "避難器具",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "543327648542359552",
+      "username": "zz358840",
+      "global_name": "kevin",
+      "display_name": "kevin",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "545551970568765460",
+      "username": "mal0128",
+      "global_name": "Mal | 勇敢牛牛向前衝",
+      "display_name": "Mal | 勇敢牛牛向前衝",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "558976569410846731",
+      "username": "jojofish.eth",
+      "global_name": "JOJOFISH",
+      "display_name": "JOJOFISH",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "561933460009385985",
+      "username": "m33qq",
+      "global_name": "MichaelSEO",
+      "display_name": "MichaelSEO",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "565251737804341259",
+      "username": "slipknot9527",
+      "global_name": "slipknot",
+      "display_name": "slipknot",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "566905714292031518",
+      "username": "asd92132",
+      "global_name": "🤺",
+      "display_name": "🤺",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "568772552038547457",
+      "username": "rray0857",
+      "global_name": "RRay",
+      "display_name": "RRay",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "570975387178369024",
+      "username": "richardchien6",
+      "global_name": "richardchien6",
+      "display_name": "richardchien6",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "574287113818865688",
+      "username": "rudolph9527",
+      "global_name": "DC86",
+      "display_name": "DC86",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "581176334575730718",
+      "username": "gongyuancaiji",
+      "global_name": "H菜g",
+      "display_name": "H菜g",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "581535444135575562",
+      "username": "barry10061",
+      "global_name": "Barry",
+      "display_name": "Barry",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "589641123404709889",
+      "username": "jk125",
+      "global_name": "JK125",
+      "display_name": "JK125",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "591992757485305896",
+      "username": "abab8964",
+      "global_name": "Richart",
+      "display_name": "Richart",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "593455489615003650",
+      "username": "0xll",
+      "global_name": "LL",
+      "display_name": "LL",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "601994824387919872",
+      "username": "esther.ee",
+      "global_name": "esther",
+      "display_name": "esther",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "606368660625293323",
+      "username": "mianbaoooo",
+      "global_name": null,
+      "display_name": "mianbaoooo",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "611219808456933397",
+      "username": "0xdragon",
+      "global_name": "0xdragon",
+      "display_name": "0xdragon",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "612570989636747275",
+      "username": "antiarko",
+      "global_name": "antiarko｜murmurcat",
+      "display_name": "antiarko｜murmurcat",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "613684987379843072",
+      "username": "tobeasgodas6a",
+      "global_name": "¿BIM",
+      "display_name": "¿BIM",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "634016770964979723",
+      "username": "kkkkofffuu",
+      "global_name": "韭菜想回本$-100",
+      "display_name": "韭菜想回本$-100",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "638180231194345502",
+      "username": "rickson96",
+      "global_name": "Rickson",
+      "display_name": "Rickson",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "650305322459725833",
+      "username": "aneow",
+      "global_name": "Aneow",
+      "display_name": "Aneow",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "650418571851333759",
+      "username": "kkw0691",
+      "global_name": "KK",
+      "display_name": "KK",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "667013395630915604",
+      "username": "vanullabubble",
+      "global_name": "愛吃韭菜的貓",
+      "display_name": "愛吃韭菜的貓",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "667348548307779626",
+      "username": "chenclw",
+      "global_name": "阿良",
+      "display_name": "阿良",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "668077565696540702",
+      "username": "bobbyli7005",
+      "global_name": "Bobby Li",
+      "display_name": "Bobby Li",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "680398270937432085",
+      "username": "marshall123",
+      "global_name": "Marshall",
+      "display_name": "Marshall",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "681287368157954084",
+      "username": "mkw888",
+      "global_name": "Mkw",
+      "display_name": "Mkw",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "689762249983655954",
+      "username": "kw5566",
+      "global_name": "KW",
+      "display_name": "KW",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "697658210630369280",
+      "username": "jacobdisco",
+      "global_name": "JacobDisco",
+      "display_name": "JacobDisco",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "708680795736506368",
+      "username": "samhsu66",
+      "global_name": "Sam hsu",
+      "display_name": "Sam hsu",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "711725221735956540",
+      "username": "mrj88",
+      "global_name": "Mr.J",
+      "display_name": "Mr.J",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "725683755452465274",
+      "username": "sheng0978",
+      "global_name": "Sheng",
+      "display_name": "Sheng",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "731715185764597830",
+      "username": "chasel.soul",
+      "global_name": "Chasel",
+      "display_name": "Chasel",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "742665586877661185",
+      "username": "derekchuang",
+      "global_name": "DerekChuang",
+      "display_name": "DerekChuang",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "744614170569474059",
+      "username": "lukachain",
+      "global_name": "路卡琛",
+      "display_name": "路卡琛",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "748498767166308484",
+      "username": "jet7649",
+      "global_name": null,
+      "display_name": "jet7649",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "765935977209528350",
+      "username": "chamarix",
+      "global_name": "CC | Chamarix",
+      "display_name": "CC | Chamarix",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "769121648980525087",
+      "username": "jackytsai",
+      "global_name": "Jacky Tsai",
+      "display_name": "Jacky Tsai",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "780428629481619477",
+      "username": "sherrycha1226",
+      "global_name": "Sherrycha",
+      "display_name": "Sherrycha",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "781395879458242580",
+      "username": "tony1213428",
+      "global_name": null,
+      "display_name": "tony1213428",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "785394486213738496",
+      "username": "rudy6180",
+      "global_name": "Rudy",
+      "display_name": "Rudy",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "792300761986891787",
+      "username": "ooocyooo",
+      "global_name": "CYCY",
+      "display_name": "CYCY",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "798459360057098283",
+      "username": "archer6666",
+      "global_name": "Archer",
+      "display_name": "Archer",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "804152175785541662",
+      "username": ".rsyuan",
+      "global_name": "Rsyuan",
+      "display_name": "Rsyuan",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "805040051464699934",
+      "username": "vicente05047",
+      "global_name": "Vicente",
+      "display_name": "Vicente",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "806028773760696330",
+      "username": "tonymurmurcat",
+      "global_name": "Tony",
+      "display_name": "Tony",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "811824017736335371",
+      "username": "zzzaaa12",
+      "global_name": "Alex Lin",
+      "display_name": "Alex Lin",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "819827084692160533",
+      "username": "shayne0713",
+      "global_name": "shayneli.bnb | bitSmiley",
+      "display_name": "shayneli.bnb | bitSmiley",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "821472225826963486",
+      "username": "wjc852",
+      "global_name": "矮倫",
+      "display_name": "矮倫",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "826673941052784711",
+      "username": "ky6683",
+      "global_name": "KY",
+      "display_name": "KY",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "827690099085017088",
+      "username": "toot3190",
+      "global_name": "TOOT",
+      "display_name": "TOOT",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "837329371470626857",
+      "username": ".paulchang",
+      "global_name": "Paul",
+      "display_name": "Paul",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "840054415992815616",
+      "username": "phenyljelly",
+      "global_name": "果凍",
+      "display_name": "果凍",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "840860321627242516",
+      "username": "sihalon",
+      "global_name": "sihalon",
+      "display_name": "sihalon",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "843354757761466380",
+      "username": "yianchen",
+      "global_name": "YianChen",
+      "display_name": "YianChen",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "844125354368827402",
+      "username": "kkyou.",
+      "global_name": "Pawa | CHAMP",
+      "display_name": "Pawa | CHAMP",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "844396165863571557",
+      "username": "cryptomonkeycho",
+      "global_name": "Ming",
+      "display_name": "Ming",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "844793797703368726",
+      "username": "cobra.fu",
+      "global_name": "Cobra",
+      "display_name": "Cobra",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "847004585822126101",
+      "username": "tsaijohn1008",
+      "global_name": "John☀",
+      "display_name": "John☀",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "847829954955837450",
+      "username": "yangla",
+      "global_name": "Yang",
+      "display_name": "Yang",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "849920445725278218",
+      "username": "jeff_tianxinfang",
+      "global_name": "JeffSkate",
+      "display_name": "JeffSkate",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "850002762427400192",
+      "username": "pl9328",
+      "global_name": "pL",
+      "display_name": "pL",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "850184551078690826",
+      "username": "aaaaaamurmurcat",
+      "global_name": "AAAAAA | Murmurcats",
+      "display_name": "AAAAAA | Murmurcats",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "850370154345136128",
+      "username": "flymamba",
+      "global_name": "fmamba",
+      "display_name": "fmamba",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "850990964801536000",
+      "username": "yhh5499",
+      "global_name": "🐟YHH 🐟",
+      "display_name": "🐟YHH 🐟",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "852443222953164821",
+      "username": "ffcccharlymurmurcat",
+      "global_name": "Cccharly｜Murmurcat",
+      "display_name": "Cccharly｜Murmurcat",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "852504015970238536",
+      "username": "simpl3thing",
+      "global_name": "Simplething",
+      "display_name": "Simplething",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "852522332785475596",
+      "username": "lawc2832",
+      "global_name": "ecnerwal",
+      "display_name": "ecnerwal",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "853613358124630027",
+      "username": "amber.00",
+      "global_name": "Amber",
+      "display_name": "Amber",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "858384004259512330",
+      "username": "pimosocreate",
+      "global_name": "Pimo | So Create",
+      "display_name": "Pimo | So Create",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "863812125113188402",
+      "username": "chihjay",
+      "global_name": "橘子",
+      "display_name": "橘子",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "870332798819528714",
+      "username": "jamieh2971",
+      "global_name": "Jamie h",
+      "display_name": "Jamie h",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "871293853309739019",
+      "username": "amen1106",
+      "global_name": "Amen",
+      "display_name": "Amen",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "874292897644687400",
+      "username": "jc878",
+      "global_name": "JC",
+      "display_name": "JC",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "880820196011569202",
+      "username": "jmo1937",
+      "global_name": "lil.p",
+      "display_name": "lil.p",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "887194943582515200",
+      "username": "howardmurmurcat",
+      "global_name": "howard | Murmurcat",
+      "display_name": "howard | Murmurcat",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "888249912406454323",
+      "username": "edisonmurmurcat",
+      "global_name": "Edison | MurMurCat",
+      "display_name": "Edison | MurMurCat",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "892059613774639134",
+      "username": "erica0911lalphashark",
+      "global_name": null,
+      "display_name": "erica0911lalphashark",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "893142362732249098",
+      "username": "kabedo",
+      "global_name": "Kabedo",
+      "display_name": "Kabedo",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "894075221781401624",
+      "username": "icegine",
+      "global_name": "icegine",
+      "display_name": "icegine",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "894744387781816330",
+      "username": "ct.eth",
+      "global_name": "CT",
+      "display_name": "CT",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "894943837036900412",
+      "username": "godsky168",
+      "global_name": "GDY紫神天｜天公子｜❤ $WELL",
+      "display_name": "GDY紫神天｜天公子｜❤ $WELL",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "895144370716676097",
+      "username": "antmap",
+      "global_name": "M | antmap",
+      "display_name": "M | antmap",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "895946238715908127",
+      "username": "fc89",
+      "global_name": "fc89",
+      "display_name": "fc89",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "896635857157632051",
+      "username": "0xnk",
+      "global_name": "0xNK",
+      "display_name": "0xNK",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "896675395565416478",
+      "username": "nicobgg",
+      "global_name": null,
+      "display_name": "nicobgg",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "897880843119378452",
+      "username": "0xace_1",
+      "global_name": "0xAce",
+      "display_name": "0xAce",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "897940036497076224",
+      "username": "goretxe.bnb",
+      "global_name": "KTC | 鳥弟",
+      "display_name": "KTC | 鳥弟",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "901434103918907412",
+      "username": "terry3088",
+      "global_name": "TERRY",
+      "display_name": "TERRY",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "902088598340399125",
+      "username": "earldyor",
+      "global_name": "Earl Dyor",
+      "display_name": "Earl Dyor",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "902875143116836895",
+      "username": "cryptoalvin",
+      "global_name": "韭菜艾爾文",
+      "display_name": "韭菜艾爾文",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "903951358892318730",
+      "username": "aken0489",
+      "global_name": "阿Ken",
+      "display_name": "阿Ken",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "904638521686515772",
+      "username": "arhkaaron",
+      "global_name": "arhkaaron",
+      "display_name": "arhkaaron",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "906515752444653628",
+      "username": "rafe.tsai",
+      "global_name": "傘蜥蜴",
+      "display_name": "傘蜥蜴",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "907985906567381023",
+      "username": "billymurmurcats",
+      "global_name": "Billy｜Murmurcats",
+      "display_name": "Billy｜Murmurcats",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "909624456824127528",
+      "username": "abo5897",
+      "global_name": "SNOW",
+      "display_name": "SNOW",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "911744029576794133",
+      "username": "buck0789",
+      "global_name": "Buck",
+      "display_name": "Buck",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "912337874014339113",
+      "username": "aireplaceus",
+      "global_name": "AIReplaceUS",
+      "display_name": "AIReplaceUS",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "912611948007411763",
+      "username": "kacaw",
+      "global_name": "Kacaw",
+      "display_name": "Kacaw",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "914398300763992095",
+      "username": "mr.mr0587",
+      "global_name": "Mr.MR",
+      "display_name": "Mr.MR",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "914703745089163294",
+      "username": "yizo0416",
+      "global_name": "宥子",
+      "display_name": "宥子",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "914960263902539847",
+      "username": "0xyk",
+      "global_name": "0xYK",
+      "display_name": "0xYK",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "915550506422771723",
+      "username": "qofather",
+      "global_name": "QOfather",
+      "display_name": "QOfather",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "919803147952726038",
+      "username": "anan1901",
+      "global_name": "An An",
+      "display_name": "An An",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "919962528900071436",
+      "username": "cjwang1221",
+      "global_name": "CJＷang",
+      "display_name": "CJＷang",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "920646691298893834",
+      "username": "cookiee8156",
+      "global_name": "!Cookiee",
+      "display_name": "!Cookiee",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "920686713729331230",
+      "username": "xingrennai.",
+      "global_name": "薇薇安",
+      "display_name": "薇薇安",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "921329916346261554",
+      "username": "kyle.c",
+      "global_name": "Kyle.C",
+      "display_name": "Kyle.C",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "922403856225296404",
+      "username": "chihwei1375",
+      "global_name": "chihwei",
+      "display_name": "chihwei",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "923563483205894155",
+      "username": "jiangmango",
+      "global_name": "Jiangmango",
+      "display_name": "Jiangmango",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "923576029652582423",
+      "username": "stellacfomodog",
+      "global_name": null,
+      "display_name": "stellacfomodog",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "925311034963669034",
+      "username": "angelo.u",
+      "global_name": "Mala",
+      "display_name": "Mala",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "927015718778724412",
+      "username": "jack_88748",
+      "global_name": "(Jack)",
+      "display_name": "(Jack)",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "929739490199760986",
+      "username": "lori7733",
+      "global_name": "lori",
+      "display_name": "lori",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "930115414996963419",
+      "username": "unoman1990",
+      "global_name": "unoman",
+      "display_name": "unoman",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "933182248629440573",
+      "username": "ex2bhb",
+      "global_name": "wj",
+      "display_name": "wj",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "937228142479806504",
+      "username": "hootandhodl",
+      "global_name": "TNT貓頭 | 神器cha",
+      "display_name": "TNT貓頭 | 神器cha",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "940403857861771304",
+      "username": "ivy17987",
+      "global_name": "ivy chen",
+      "display_name": "ivy chen",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "940831612113920090",
+      "username": "alberttsai2215",
+      "global_name": "F",
+      "display_name": "F",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "940841496142295071",
+      "username": "chacha6752",
+      "global_name": "H",
+      "display_name": "H",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "941000550097502241",
+      "username": "godspeed9203",
+      "global_name": "Speedy",
+      "display_name": "Speedy",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "942474463876878376",
+      "username": "0xdec.",
+      "global_name": "0xDEC",
+      "display_name": "0xDEC",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "944503834745638934",
+      "username": "alextsai_dc",
+      "global_name": "ALEX TSAI",
+      "display_name": "ALEX TSAI",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "947100244892614686",
+      "username": "jian5670",
+      "global_name": "jian5670",
+      "display_name": "jian5670",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "953955967333175306",
+      "username": "wake5020",
+      "global_name": "Wake",
+      "display_name": "Wake",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "957989972915413052",
+      "username": "pohan_0723",
+      "global_name": "Pohanchen",
+      "display_name": "Pohanchen",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "966348678858174514",
+      "username": "chongfu",
+      "global_name": "fu",
+      "display_name": "fu",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "981459070517141564",
+      "username": "newnewnewbank.bnb",
+      "global_name": "NN Chiu",
+      "display_name": "NN Chiu",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "983983740944527360",
+      "username": "strawberryquack",
+      "global_name": "Strawberryduck草莓鴨",
+      "display_name": "Strawberryduck草莓鴨",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "990084490200219718",
+      "username": "wakka0880",
+      "global_name": "wakka",
+      "display_name": "wakka",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1007319778060406804",
+      "username": "kikyobaby",
+      "global_name": "Kyo",
+      "display_name": "Kyo",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1020694266542030868",
+      "username": "bow7354",
+      "global_name": null,
+      "display_name": "bow7354",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1024969015686348851",
+      "username": "yuyou0324",
+      "global_name": "乂煞氣a魚魚you乂",
+      "display_name": "乂煞氣a魚魚you乂",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1054715422928273468",
+      "username": "kklife7817",
+      "global_name": "kklife",
+      "display_name": "kklife",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1062668335256440863",
+      "username": "vermilion1616",
+      "global_name": null,
+      "display_name": "vermilion1616",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1070368836580286544",
+      "username": "pucca9577",
+      "global_name": "pucca",
+      "display_name": "pucca",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1076044074324328550",
+      "username": "jcm33",
+      "global_name": "JCM33",
+      "display_name": "JCM33",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1108208973733183540",
+      "username": "alphacall6666",
+      "global_name": "α",
+      "display_name": "α",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1139855981866651808",
+      "username": "lee073058",
+      "global_name": "Lee",
+      "display_name": "Lee",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1226107545597251616",
+      "username": "moneycometome55",
+      "global_name": "Lilian莉莉安",
+      "display_name": "Lilian莉莉安",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1233002900603797617",
+      "username": "andyuan997",
+      "global_name": "阿謙 📉💩👋",
+      "display_name": "阿謙 📉💩👋",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1260433378889437210",
+      "username": "omarliu401",
+      "global_name": "omar666",
+      "display_name": "omar666",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "1346793038118256753",
+      "username": "woyaoshampoo_crypto",
+      "global_name": "ARNO",
+      "display_name": "ARNO",
+      "tickets": 1,
+      "max_role": "呢喃貓",
+      "roles": [
+        "呢喃貓 (1)"
+      ],
+      "is_duplicate": false
+    },
+    {
+      "id": "914366901361188904",
+      "username": "jim1106",
+      "global_name": "jim|1106",
+      "display_name": "jim|1106",
+      "tickets": 0,
+      "max_role": "無特殊角色",
+      "roles": [],
+      "is_duplicate": false
+    },
+    {
+      "id": "920607568097853461",
+      "username": "cryptormurmurcat",
+      "global_name": "Cryptor | 呢喃",
+      "display_name": "Cryptor | 呢喃",
+      "tickets": 0,
+      "max_role": "無特殊角色",
+      "roles": [],
+      "is_duplicate": false
+    }
+  ]
+}
