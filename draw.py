@@ -8,12 +8,58 @@ import hashlib
 import uuid
 import secrets
 import datetime
+import urllib.request
 
 def clear_screen():
     """清除螢幕"""
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def enhance_randomness():
+def get_btc_price():
+    """獲取當前比特幣價格作為隨機種子"""
+    try:
+        # 嘗試從多個API獲取BTC價格，增加可靠性
+        apis = [
+            "https://api.coindesk.com/v1/bpi/currentprice.json",
+            "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+            "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+        ]
+
+        for api_url in apis:
+            try:
+                # 設置超時，避免長時間等待
+                response = urllib.request.urlopen(api_url, timeout=2)
+                data = json.loads(response.read().decode())
+
+                # 根據不同API解析價格
+                if "bpi" in data:  # Coindesk API
+                    price = data["bpi"]["USD"]["rate_float"]
+                elif "price" in data:  # Binance API
+                    price = float(data["price"])
+                elif "bitcoin" in data:  # CoinGecko API
+                    price = float(data["bitcoin"]["usd"])
+                else:
+                    continue
+
+                # 提取價格的微小變動部分，增加隨機性
+                # 取小數點後10位，並乘以10^10以獲得足夠大的整數
+                price_seed = int((price - int(price)) * 10**10)
+
+                print(f"成功獲取BTC當前價格: ${price:.2f}")
+                print(f"價格種子值: {price_seed}")
+                return price_seed
+
+            except Exception as e:
+                print(f"從 {api_url} 獲取BTC價格失敗: {str(e)}")
+                continue
+
+        print("無法獲取BTC價格，使用備用隨機源")
+        return None
+
+    except Exception as e:
+        print(f"獲取BTC價格時發生錯誤: {str(e)}")
+        return None
+
+def enhance_randomness(use_btc=True):
     """增強隨機性，使用多種方法初始化隨機數生成器"""
     # 方法1: 使用系統熵源初始化
     # 這使用操作系統提供的加密強隨機數生成器
@@ -28,16 +74,27 @@ def enhance_randomness():
     # 使用UUID增加熵源
     uuid_seed = int(uuid.uuid4().hex, 16) % (2**32)
 
-    # 方法4: 哈希混合以上因素
+    # 方法4: 添加BTC價格作為種子（如果啟用）
+    btc_seed = None
+    if use_btc:
+        btc_seed = get_btc_price()
+
+    # 方法5: 哈希混合以上因素
     # 使用SHA-256哈希以上所有種子值，進一步增加熵
-    combined_seed = f"{random_seed}-{time_seed}-{uuid_seed}-{os.getpid()}"
+    if btc_seed:
+        combined_seed = f"{random_seed}-{time_seed}-{uuid_seed}-{btc_seed}-{os.getpid()}"
+        source_desc = "加密級隨機源 + 時間因素 + UUID + BTC價格 + 進程ID"
+    else:
+        combined_seed = f"{random_seed}-{time_seed}-{uuid_seed}-{os.getpid()}"
+        source_desc = "加密級隨機源 + 時間因素 + UUID + 進程ID"
+
     hash_seed = int(hashlib.sha256(combined_seed.encode()).hexdigest(), 16) % (2**32)
 
     # 設置 random 模組的種子
     random.seed(hash_seed)
 
     # 顯示增強隨機性的信息
-    print("隨機系統已增強：使用加密級隨機源 + 時間因素 + UUID + 進程ID 的混合哈希種子")
+    print(f"隨機系統已增強：使用{source_desc}的混合哈希種子")
 
     return hash_seed
 
@@ -169,8 +226,8 @@ def verify_fairness(weighted_participants, simulations=10000):
         print("沒有參與者，無法驗證公平性")
         return
 
-    # 初始化隨機性
-    enhance_randomness()
+    # 初始化隨機性（不使用BTC價格以加快模擬速度）
+    enhance_randomness(use_btc=False)
 
     # 獲取唯一會員和他們的籤數
     members = {}
@@ -274,8 +331,17 @@ def verify_fairness(weighted_participants, simulations=10000):
 
 def main():
     try:
+        # 詢問是否使用BTC價格作為隨機種子
+        use_btc = True
+        # btc_choice = input("是否使用比特幣(BTC)當前價格作為隨機種子？(y/n，預設y): ")
+        # if btc_choice.lower() == 'n':
+        #     use_btc = False
+        #     print("不使用BTC價格作為隨機種子")
+        # else:
+        #     print("將使用BTC價格作為隨機種子，增加不可預測性")
+
         # 初始化增強隨機性
-        random_seed = enhance_randomness()
+        random_seed = enhance_randomness(use_btc)
 
         # 檔案路徑設定
         processed_data_file = input("請輸入處理後的抽獎資料JSON檔案路徑 (預設為 lottery_data.json): ")
@@ -395,7 +461,7 @@ def main():
         # 驗證抽獎公平性
         choice = input("\n是否要進行抽獎公平性驗證？(y/n): ")
         if choice.lower() == 'y':
-            simulations = 1000000
+            simulations = 10000
             try:
                 sim_input = input(f"請輸入模擬次數 (預設為 {simulations}): ")
                 if sim_input.strip():

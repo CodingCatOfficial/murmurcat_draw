@@ -164,6 +164,8 @@ def combine_data(members: List[Dict[str, Any]], roles: List[Dict[str, Any]],
 
         # 添加會員資料
         display_name = member.get("global_name", "") or member.get("username", "")
+        if display_name == "slipknot" or display_name == "slipknot9527":
+          display_name = "Dante"
 
         member_info = {
             "id": member_id,
